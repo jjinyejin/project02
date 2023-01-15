@@ -130,10 +130,10 @@ img{display: block; width: 100%;}
             button{
                 display: none;
             }
-            ul{
+            .menuBox{
+                width: calc(100% / 12 * 4);
                 padding: min(0.5rem, 20px) 0;
                 display: block;
-                width: calc(100% / 12 * 4);
                 border-right: 1px solid rgb(60, 60, 60);
                 h4{
                     font-size: min(1.8em, 18px);
@@ -141,21 +141,23 @@ img{display: block; width: 100%;}
                     padding-bottom: min(0.375rem, 15px);
                     text-align: center;
                 }
-                li{
-                    a{
-                        text-align: center;
-                        font-size: min(1.8em, 18px);
-                        font-family: 'NanumSquareRound';
-                        color: rgb(85, 85, 85);
-                        line-height: min(1.25rem, 50px);
-                    }
-                    a:hover{
-                        color: #000;
+                ul{
+                    li{
+                        a{
+                            text-align: center;
+                            font-size: min(1.8em, 18px);
+                            font-family: 'NanumSquareRound';
+                            color: rgb(85, 85, 85);
+                            line-height: min(1.25rem, 50px);
+                        }
+                        a:hover{
+                            color: #000;
+                        }
                     }
                 }
-            }
-            ul:last-child{
-                border-right: 0;
+                ul:last-child{
+                    border-right: 0;
+                }
             }
         }
     }
@@ -602,7 +604,7 @@ img{display: block; width: 100%;}
                                 transform: translateX(-140px);
                                 transition: transform 1s;
                                 img{
-                                    scale: 1.1;
+                                    transform: scale(1.1);
                                 }
                             }
                             .innerBox{
@@ -922,7 +924,6 @@ img{display: block; width: 100%;}
     /*scroll*/
     .back-to-position{
         opacity: 1;
-        transition: 0;
     }
 
     /*공통*/
@@ -967,17 +968,19 @@ img{display: block; width: 100%;}
             top: max(2rem, 80px);
             padding: max(0.625rem, 25px) 0;
             .menu{
-                ul{
+                .menuBox{
                     padding: max(0.125rem, 5px) 0;
                     width: calc(100% / 8 * 2);
                     h4{
                         font-size: max(1.4em, 14px);
                         padding-bottom: max(0.25rem, 10px);
                     }
-                    li{
-                        a{
-                            font-size: max(1.3em, 13px);
-                            line-height: max(0.875rem, 35px);
+                    ul{
+                        li{
+                            a{
+                                font-size: max(1.3em, 13px);
+                                line-height: max(0.875rem, 35px);
+                            }
                         }
                     }
                 }
@@ -1447,7 +1450,7 @@ img{display: block; width: 100%;}
                     border: none;
                     background-color: transparent;
                 }
-                ul{
+                .menuBox{
                     padding: max(0.25rem, 10px) 0;
                     width: 100%;
                     border-right: 0;
@@ -1456,14 +1459,16 @@ img{display: block; width: 100%;}
                         font-size: max(1.7em, 17px);
                         padding-bottom: max(0.375rem, 15px);
                     }
-                    li{
-                        a{
-                            font-size: max(1.6em, 16px);
+                    ul{
+                        li{
+                            a{
+                                font-size: max(1.6em, 16px);
+                            }
                         }
                     }
-                }
-                ul:last-child{
-                    border-bottom: 0;
+                    ul:last-child{
+                        border-bottom: 0;
+                    }
                 }
             }
         }
@@ -1706,11 +1711,11 @@ img{display: block; width: 100%;}
                                 }
                             }
                             article:hover{
-                                background-color: none;
+                                background-color: transparent;
                                 .icon{
                                     transform: translateX(0);
                                     img{
-                                        scale: 1.1;
+                                        transform: scale(1.1);
                                     }
                                 }
                             }
