@@ -18,7 +18,6 @@ html {
 
 body {
   font-size: 0.5730659026vw;
-  touch-action: pan-x;
   overflow-x: hidden;
 }
 
