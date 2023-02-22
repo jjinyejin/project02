@@ -42,11 +42,11 @@ img {
     background-color: rgba(255, 255, 255, 0.7);
   }
   .cntFrame .cntWrap05 .cnt05 .cnt05Frame article:hover span:nth-child(1),
-.cntFrame .cntWrap05 .cnt05 .cnt05Frame article:hover span:nth-child(3) {
+  .cntFrame .cntWrap05 .cnt05 .cnt05Frame article:hover span:nth-child(3) {
     width: 100%;
   }
   .cntFrame .cntWrap05 .cnt05 .cnt05Frame article:hover span:nth-child(2),
-.cntFrame .cntWrap05 .cnt05 .cnt05Frame article:hover span:nth-child(4) {
+  .cntFrame .cntWrap05 .cnt05 .cnt05Frame article:hover span:nth-child(4) {
     height: 100%;
   }
 }
@@ -903,9 +903,9 @@ img {
     margin-top: max(2rem, 80px);
   }
   .hdrWrap header,
-.menuWrap .menu,
-.cntWrap .cnt,
-.ftrWrap footer {
+  .menuWrap .menu,
+  .cntWrap .cnt,
+  .ftrWrap footer {
     width: 90%;
     max-width: 900px;
   }
@@ -1029,7 +1029,7 @@ img {
     margin-top: max(0.625rem, 25px);
   }
   .cntFrame .cntwrap03 .cnt03 .slideView .slideGr article:nth-child(2),
-.cntFrame .cntwrap03 .cnt03 .slideView .slideGr article:nth-child(6) {
+  .cntFrame .cntwrap03 .cnt03 .slideView .slideGr article:nth-child(6) {
     margin-top: max(0.75rem, 30px);
   }
   .cntFrame .cntwrap03 .cnt03 .slideView .slideGr article:nth-child(8) {
