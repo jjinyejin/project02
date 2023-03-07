@@ -167,7 +167,7 @@ img {
 .mnHdr .menuWrap .menu .menuBox ul li a:hover {
   color: #000;
 }
-.mnHdr .menuWrap .menu .menuBox ul:last-child {
+.mnHdr .menuWrap .menu .menuBox:last-child {
   border-right: 0;
 }
 .mnHdr .subNav {
